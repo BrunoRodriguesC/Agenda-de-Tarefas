@@ -11,8 +11,8 @@ $(document).ready(function() {
         ).appendTo(adicionarTarefa);
         $(adicionarTarefa).appendTo('ul')
         $('#inputTarefa').val('')
-        $("li").click(function() {
-            $("li").css("text-decoration","line-through");
+         $("li").click(function() {
+            $(this).addClass("Riscado");
         });
        
     })
